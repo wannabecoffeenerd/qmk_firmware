@@ -58,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [LAYER_SYMBOL] = LAYOUT(
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
        XXXXXXX, KC_TILD, XXXXXXX, XXXXXXX, KC_LPRN, XXXXXXX,    XXXXXXX, KC_RPRN, KC_PLUS, KC_QUES, KC_PIPE, XXXXXXX,
-  // ├───────────────────────────────────── ├──────────────────────────────────────────────────────┤
+  // ├──────────────────────────────────────────────────────╮ ├──────────────────────────────────────────────────────┤
        XXXXXXX,  KC_GRV, KC_PEQL, KC_COLN, KC_LCBR,   KC_LT,      KC_GT, KC_RCBR, KC_PMNS, KC_UNDS, KC_DQUO, XXXXXXX,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        XXXXXXX,  KC_TAB, XXXXXXX, KC_SCLN, KC_LBRC, XXXXXXX,    QK_BOOT, KC_RBRC, KC_COMM,  KC_DOT, KC_BSPC, XXXXXXX,
@@ -69,7 +69,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [LAYER_NAV] = LAYOUT(
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
-       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,    XXXXXXX, KC_COPY,  TOBASE,  KC_DEL, KC_PSTE, XXXXXXX,
+       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,    XXXXXXX, KC_COPY,  TOBASE,  KC_DEL, LGUI(KC_V), XXXXXXX,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        XXXXXXX, XXXXXXX, XXXXXXX,  KC_CUT, XXXXXXX, XXXXXXX,    KC_LEFT, KC_DOWN,   KC_UP,  KC_RIGHT, KC_ENT, XXXXXXX,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
