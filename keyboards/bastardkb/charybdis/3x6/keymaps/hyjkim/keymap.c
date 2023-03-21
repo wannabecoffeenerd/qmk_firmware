@@ -45,7 +45,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [LAYER_NUMBER] = LAYOUT(
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
-       XXXXXXX, KC_VOLU, KC_VOLD, KC_BRIU, KC_BRID, XXXXXXX,    KC_PLUS,   KC_P7,   KC_P8,   KC_P9,   TONAV, XXXXXXX,
+       XXXXXXX, KC_VOLD, KC_VOLU, KC_BRIU, KC_BRID, XXXXXXX,    KC_PLUS,   KC_P7,   KC_P8,   KC_P9,   TONAV, XXXXXXX,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        XXXXXXX, XXXXXXX, KC_PEQL, KC_COLN, XXXXXXX, XXXXXXX,    KC_PMNS,   KC_P4,   KC_P5,   KC_P6,  KC_ENT, XXXXXXX,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
