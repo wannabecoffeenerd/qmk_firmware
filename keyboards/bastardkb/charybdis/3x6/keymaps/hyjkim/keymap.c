@@ -45,11 +45,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [LAYER_NUMBER] = LAYOUT(
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
-       XXXXXXX, KC_VOLU, KC_VOLD, KC_BRIU, KC_BRID, XXXXXXX,    KC_PLUS,   KC_P7,   KC_P8,   KC_P9,   TONAV, XXXXXXX,
+       XXXXXXX, KC_VOLU, KC_VOLD, KC_BRIU, KC_BRID, XXXXXXX,    TD_HT_PLUS_F11, TD_HT_7_F7, TD_HT_8_F8, TD_HT_9_F9,   TONAV, XXXXXXX,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-       XXXXXXX, XXXXXXX, KC_PEQL, KC_COLN, XXXXXXX, XXXXXXX,    KC_PMNS,   KC_P4,   KC_P5,   KC_P6,  KC_ENT, XXXXXXX,
+       XXXXXXX, XXXXXXX, KC_PEQL, KC_COLN, XXXXXXX, XXXXXXX,    TD_HT_PMNS_F12, TD_HT_4_F4, TD_HT_5_F5, TD_HT_6_F6,  KC_ENT, XXXXXXX,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-       XXXXXXX,  KC_TAB, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,    KC_PDOT,   KC_P1,   KC_P2,   KC_P3, KC_BSPC, XXXXXXX,
+       XXXXXXX,  KC_TAB, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,    KC_PDOT,        TD_HT_1_F1, TD_HT_2_F2, TD_HT_3_F3, KC_BSPC, XXXXXXX,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
                                   NUMBER,  SYMBOL,  KC_LSFT,    KC_P0,  KC_SPC
   //                            ╰───────────────────────────╯ ╰──────────────────╯
@@ -68,7 +68,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [LAYER_NAV] = LAYOUT(
-  // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
+  // ╭──────────────────────────────────────
        XXXXXXX, XXXXXXX, LALT(KC_RIGHT), XXXXXXX, XXXXXXX, XXXXXXX,    LGUI(KC_C), LGUI(KC_Z),  TOBASE,  KC_DEL, LGUI(KC_V), XXXXXXX,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        XXXXXXX, XXXXXXX, XXXXXXX,  KC_CUT, XXXXXXX, XXXXXXX,    KC_LEFT, KC_DOWN,   KC_UP,  KC_RIGHT, KC_ENT, XXXXXXX,
