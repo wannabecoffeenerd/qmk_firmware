@@ -17,16 +17,16 @@
 
 #elif
 
-#    define HT_1_F KC_1
-#    define HT_2_F KC_2
-#    define HT_3_F KC_3
-#    define HT_4_F KC_4
-#    define HT_5_F KC_5
-#    define HT_6_F KC_6
-#    define HT_7_F KC_7
-#    define HT_8_F KC_8
-#    define HT_9_F KC_9
-#    define HT_PLUS_F KC_11
-#    define HT_PMNS_F KC_12
+#    define HT_1_F1 KC_P1
+#    define HT_2_F2 KC_P2
+#    define HT_3_F3 KC_P3
+#    define HT_4_F4 KC_P4
+#    define HT_5_F5 KC_P5
+#    define HT_6_F6 KC_P6
+#    define HT_7_F7 KC_P7
+#    define HT_8_F8 KC_P8
+#    define HT_9_F9 KC_P9
+#    define HT_PLUS_F KC_PLUS
+#    define HT_PMNS_F KC_PMNS
 
 #endif

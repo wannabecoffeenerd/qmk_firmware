@@ -45,11 +45,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [LAYER_NUMBER] = LAYOUT(
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
-       XXXXXXX, KC_VOLU, KC_VOLD, KC_BRIU, KC_BRID, XXXXXXX,    TD_HT_PLUS_F11, TD_HT_7_F7, TD_HT_8_F8, TD_HT_9_F9,   TONAV, XXXXXXX,
+       XXXXXXX, KC_VOLU, KC_VOLD, KC_BRIU, KC_BRID, XXXXXXX,    HT_PLUS_F11, HT_7_F7, HT_8_F8, HT_9_F9,   TONAV, XXXXXXX,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-       XXXXXXX, XXXXXXX, KC_PEQL, KC_COLN, XXXXXXX, XXXXXXX,    TD_HT_PMNS_F12, TD_HT_4_F4, TD_HT_5_F5, TD_HT_6_F6,  KC_ENT, XXXXXXX,
+       XXXXXXX, XXXXXXX, KC_PEQL, KC_COLN, XXXXXXX, XXXXXXX,    HT_PMNS_F12, HT_4_F4, HT_5_F5, HT_6_F6,  KC_ENT, XXXXXXX,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-       XXXXXXX,  KC_TAB, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,    KC_PDOT,        TD_HT_1_F1, TD_HT_2_F2, TD_HT_3_F3, KC_BSPC, XXXXXXX,
+       XXXXXXX,  KC_TAB, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,    KC_PDOT,     HT_1_F1, HT_2_F2, HT_3_F3, KC_BSPC, XXXXXXX,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
                                   NUMBER,  SYMBOL,  KC_LSFT,    KC_P0,  KC_SPC
   //                            ╰───────────────────────────╯ ╰──────────────────╯
