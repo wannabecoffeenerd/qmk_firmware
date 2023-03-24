@@ -14,6 +14,7 @@ enum {
     TD_HT_9_F9,
     TD_HT_PLUS_F11,
     TD_HT_PMNS_F12,
+    TD_HT_END,
 };
 
 typedef struct {

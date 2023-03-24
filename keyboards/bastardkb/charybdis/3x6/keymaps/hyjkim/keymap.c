@@ -45,7 +45,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [LAYER_NUMBER] = LAYOUT(
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
-       XXXXXXX, KC_VOLD, KC_VOLU, KC_BRIU, KC_BRID, XXXXXXX,    KC_PLUS,   KC_P7,   KC_P8,   KC_P9,   TONAV, XXXXXXX,
+       XXXXXXX, KC_VOLU, KC_VOLD, KC_BRIU, KC_BRID, XXXXXXX,    KC_PLUS,   KC_P7,   KC_P8,   KC_P9,   TONAV, XXXXXXX,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        XXXXXXX, XXXXXXX, KC_PEQL, KC_COLN, XXXXXXX, XXXXXXX,    KC_PMNS,   KC_P4,   KC_P5,   KC_P6,  KC_ENT, XXXXXXX,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
@@ -69,11 +69,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [LAYER_NAV] = LAYOUT(
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
-       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,    XXXXXXX, KC_COPY,  TOBASE,  KC_DEL, LGUI(KC_V), XXXXXXX,
+       XXXXXXX, XXXXXXX, LALT(KC_RIGHT), XXXXXXX, XXXXXXX, XXXXXXX,    LGUI(KC_C), LGUI(KC_Z),  TOBASE,  KC_DEL, LGUI(KC_V), XXXXXXX,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        XXXXXXX, XXXXXXX, XXXXXXX,  KC_CUT, XXXXXXX, XXXXXXX,    KC_LEFT, KC_DOWN,   KC_UP,  KC_RIGHT, KC_ENT, XXXXXXX,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-       XXXXXXX,  KC_TAB,  KC_DEL, XXXXXXX,  KC_END, XXXXXXX,    XXXXXXX, POINTER_DEFAULT_DPI_FORWARD, POINTER_DEFAULT_DPI_REVERSE, XXXXXXX, KC_BSPC, XXXXXXX,
+       XXXXXXX,  KC_TAB,  KC_DEL, XXXXXXX,  KC_END, LALT(KC_LEFT),    XXXXXXX, POINTER_DEFAULT_DPI_FORWARD, POINTER_DEFAULT_DPI_REVERSE, XXXXXXX, KC_BSPC, XXXXXXX,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
                                   NUMBER,  SYMBOL,  KC_LSFT,    KC_LCTL, TOBASE
   //                            ╰───────────────────────────╯ ╰──────────────────╯
